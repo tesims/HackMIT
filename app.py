@@ -7,11 +7,9 @@ print(f"Python version: {sys.version}")
 print(f"Python path: {sys.executable}")
 print("Debug: Starting app.py")
 import sqlalchemy
-import psycopg2
 
 print(f"Python version: {sys.version}")
 print(f"SQLAlchemy version: {sqlalchemy.__version__}")
-print(f"psycopg2 version: {psycopg2.__version__}")
 print(f"DATABASE_URL: {os.environ.get('DATABASE_URL')}")
 
 # ... rest of your app.py code ...
